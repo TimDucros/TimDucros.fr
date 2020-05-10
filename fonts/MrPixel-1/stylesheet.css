@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'MisterPixel';
+    src: url('VTFMisterPixel.woff2') format('woff2'),
+        url('VTFMisterPixel.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* @font-face {
+    font-family: 'MisterPixel';
+    src: url('VTFMisterPixel-Tools.woff2') format('woff2'),
+        url('VTFMisterPixel-Tools.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+} */
