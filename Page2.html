@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BazArtCraft</title>
@@ -25,25 +25,24 @@
 
 <body>
 
-  <header class="top">
-      <nav class="bar" id="myNavbar">
-          <a class="bar-item button hover-mint hide-medium hide-large right " href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
-              <i class="fa fa-bars"></i>
-          </a>
+    <header class="top">
+        <nav class="bar" id="myNavbar">
+            <a class="bar-item button hover-mint hide-medium hide-large right " href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+                <i class="fa fa-bars"></i>
+            </a>
             <a href="page1.html" class="bar-item button">Timothé Ducros</a>
             <a href="page2.html" class="bar-item button hide-small"> Présentation</a>
             <a href="page3.html" class="bar-item button hide-small"> Projet</a>
             <a href="page4.html" class="bar-item button hide-small"> Formation</a>
-          </a>
-      </nav>
+        </nav>
 
-      <!-- Navbar on small screens-->
-      <nav id="navDemo" class="bar-block white hide hide-large hide-medium">
-        <a href="page2.html" class="bar-item button" onclick="toggleFunction()"> Présentation</a>
-        <a href="page3.html" class="bar-item button" onclick="toggleFunction()"> Projet</a>
-        <a href="page4.html" class="bar-item button" onclick="toggleFunction()"> Formation</a>
-      </nav>
-  </header>
+        <!-- Navbar on small screens-->
+        <nav id="navDemo" class="bar-block white hide hide-large hide-medium">
+            <a href="page2.html" class="bar-item button" onclick="toggleFunction()"> Présentation</a>
+            <a href="page3.html" class="bar-item button" onclick="toggleFunction()"> Projet</a>
+            <a href="page4.html" class="bar-item button" onclick="toggleFunction()"> Formation</a>
+        </nav>
+    </header>
     <!-- Container (About Section) -->
     <div class="content container" id="about">
         <h3 class="center">Présentation</h3>
@@ -51,43 +50,43 @@
             Il témoigne de questionnements existentiels, divers, sur la société de média et de consommation dans laquelle il évolue, de son intérêt pour diverses pratiques autour du savoir-faire de la main, de l’association du numérique à l’artisanat et de la notion de savoir et de connaissance.
             Plus simplement, il retranscrit une période du parcours de vie d’un étudiant, un peu paumé dans ce qu’on peut appeler le début du 21ème siècle, qui a amené avec lui une prise de conscience collective concernant nos modes de vie.
         </p>
-      </div>
+    </div>
 
 
-      <script>
-          // Modal Image Gallery
-          function onClick(element) {
-              document.getElementById("img01").src = element.src;
-              document.getElementById("modal01").style.display = "flex";
-              var captionText = document.getElementById("caption");
-              captionText.innerHTML = element.alt;
-          }
+    <script>
+        // Modal Image Gallery
+        function onClick(element) {
+            document.getElementById("img01").src = element.src;
+            document.getElementById("modal01").style.display = "flex";
+            var captionText = document.getElementById("caption");
+            captionText.innerHTML = element.alt;
+        }
 
-          // Change style of navbar on scroll
-          window.onscroll = function() {
-              myFunction()
-          };
+        // Change style of navbar on scroll
+        window.onscroll = function() {
+            myFunction()
+        };
 
-          function myFunction() {
-              var navbar = document.getElementById("myNavbar");
-              if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-                  navbar.className = "bar" + " card" + " animate-top" + " white";
-              } else {
-                  navbar.className = navbar.className.replace(" card animate-top white", "");
-              }
-          }
+        function myFunction() {
+            var navbar = document.getElementById("myNavbar");
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                navbar.className = "bar" + " card" + " animate-top" + " white";
+            } else {
+                navbar.className = navbar.className.replace(" card animate-top white", "");
+            }
+        }
 
-          // Used to toggle the menu on small screens when clicking on the menu button
-          function toggleFunction() {
-              var x = document.getElementById("navDemo");
-              if (x.className.indexOf("show") == -1) {
-                  x.className += " show";
-              } else {
-                  x.className = x.className.replace(" show", "");
-              }
-          }
+        // Used to toggle the menu on small screens when clicking on the menu button
+        function toggleFunction() {
+            var x = document.getElementById("navDemo");
+            if (x.className.indexOf("show") == -1) {
+                x.className += " show";
+            } else {
+                x.className = x.className.replace(" show", "");
+            }
+        }
 
-      </script>
+    </script>
 </body>
 
 </html>

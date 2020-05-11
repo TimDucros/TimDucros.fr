@@ -2,11 +2,19 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BazArtCraft</title>
-">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="fonts/Bluu/stylesheet.css">
+    <link rel="stylesheet" href="fonts/Minipax/stylesheet.css">
+    <link rel="stylesheet" href="fonts/Millimetre/stylesheet.css">
+    <link rel="stylesheet" href="fonts/VG5000/font.css">
+    <link rel="stylesheet" href="fonts/MisterPixel/stylesheet.css">
     <link rel="stylesheet" href="fonts/Grotesk/stylesheet.css">
     <!-- <link rel="stylesheet" href="fonts/Pilowlava/stylesheet.css">
   <link rel="stylesheet" href="fonts/Minipax/stylesheet.css"> -->
@@ -22,39 +30,37 @@
             <a class="bar-item button hover-mint hide-medium hide-large right " href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
                 <i class="fa fa-bars"></i>
             </a>
-              <a href="page2.html" class="bar-item button hide-small"> Présentation</a>
-              <a href="page3.html" class="bar-item button hide-small"> Projet</a>
-              <a href="page4.html" class="bar-item button hide-small"> Formation</a>
-            </a>
+            <a href="page2.html" class="bar-item button hide-small"> Présentation</a>
+            <a href="page3.html" class="bar-item button hide-small"> Projet</a>
+            <a href="page4.html" class="bar-item button hide-small"> Formation</a>
+
         </nav>
 
         <!-- Navbar on small screens-->
         <nav id="navDemo" class="bar-block white hide hide-large hide-medium">
-          <a href="page2.html" class="bar-item button" onclick="toggleFunction()"> Présentation</a>
-          <a href="page3.html" class="bar-item button" onclick="toggleFunction()"> Projet</a>
-          <a href="page4.html" class="bar-item button" onclick="toggleFunction()"> Formation</a>
+            <a href="page2.html" class="bar-item button" onclick="toggleFunction()"> Présentation</a>
+            <a href="page3.html" class="bar-item button" onclick="toggleFunction()"> Projet</a>
+            <a href="page4.html" class="bar-item button" onclick="toggleFunction()"> Formation</a>
         </nav>
     </header>
 
     <!-- First Parallax Image with Logo Text -->
     <div class="content container" id="home">
-            <h2 class"center">
+        <h2 class"center">
             ducros.timothe@gmail.com</h2>
-            <h0>Timothé<span class="hide-large"><br></span> Ducros</h0><br>
-            <h1 class"center">étudiant en Design <span class="hide-large"><br></span>et Cultures numériques</h1>
-
-</div>
-</div>
-
-
-
-<span class="Footer">
-  <h4>Développé par Timothé DUCROS.<br>Typographies : Grotesk dessiné par Frank Adebiaye,<br>
-    bluu dessiné par Jean-Bapste Morizot, distribuées par <a href="https://www.velvetyne.fr/" target="_blank">velvetyne</a>.</h4>
-
-</span>
+        <h0>Timothé<span class="hide-large"><br></span> Ducros</h0><br>
+        <h1 class"center">étudiant en Design <span class="hide-large"><br></span>et Cultures numériques</h1>
 
     </div>
+
+
+
+
+    <span class="Footer">
+        <h4>Développé par Timothé DUCROS.<br>Typographies : Grotesk dessiné par Frank Adebiaye,<br>
+            bluu dessiné par Jean-Bapste Morizot, distribuées par <a href="https://www.velvetyne.fr/" target="_blank">velvetyne</a>.</h4>
+
+    </span>
 
     <!-- Container (About Section)
     <div class="blockrempli" id="about">
@@ -74,7 +80,7 @@
         <p class="center">Spécialistes du design culinaire, nous vous accompagnons sur vos projets
             de communication d’entreprise et vous proposons des prestations gourmandes qui font rimer justesse et créativité.</p>-->
 
-        <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width)
+    <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width)
         <div class="row center">
 
             <div class="col m3">
@@ -128,40 +134,40 @@
     </div>
  -->
 
- <script>
-     // Modal Image Gallery
-     function onClick(element) {
-         document.getElementById("img01").src = element.src;
-         document.getElementById("modal01").style.display = "flex";
-         var captionText = document.getElementById("caption");
-         captionText.innerHTML = element.alt;
-     }
+    <script>
+        // Modal Image Gallery
+        function onClick(element) {
+            document.getElementById("img01").src = element.src;
+            document.getElementById("modal01").style.display = "flex";
+            var captionText = document.getElementById("caption");
+            captionText.innerHTML = element.alt;
+        }
 
-     // Change style of navbar on scroll
-     window.onscroll = function() {
-         myFunction()
-     };
+        // Change style of navbar on scroll
+        window.onscroll = function() {
+            myFunction()
+        };
 
-     function myFunction() {
-         var navbar = document.getElementById("myNavbar");
-         if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-             navbar.className = "bar" + " card" + " animate-top" + " white";
-         } else {
-             navbar.className = navbar.className.replace(" card animate-top white", "");
-         }
-     }
+        function myFunction() {
+            var navbar = document.getElementById("myNavbar");
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                navbar.className = "bar" + " card" + " animate-top" + " white";
+            } else {
+                navbar.className = navbar.className.replace(" card animate-top white", "");
+            }
+        }
 
-     // Used to toggle the menu on small screens when clicking on the menu button
-     function toggleFunction() {
-         var x = document.getElementById("navDemo");
-         if (x.className.indexOf("show") == -1) {
-             x.className += " show";
-         } else {
-             x.className = x.className.replace(" show", "");
-         }
-     }
+        // Used to toggle the menu on small screens when clicking on the menu button
+        function toggleFunction() {
+            var x = document.getElementById("navDemo");
+            if (x.className.indexOf("show") == -1) {
+                x.className += " show";
+            } else {
+                x.className = x.className.replace(" show", "");
+            }
+        }
 
- </script>
+    </script>
 </body>
 
 </html>
