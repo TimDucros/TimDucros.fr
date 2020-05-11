@@ -2,11 +2,14 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ppp.css</title>
-    <link rel="stylesheet" href="ppp.css">
+    <title>BazArtCraft</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="fonts/Bluu/stylesheet.css">
     <link rel="stylesheet" href="fonts/Minipax/stylesheet.css">
     <link rel="stylesheet" href="fonts/Millimetre/stylesheet.css">
@@ -14,715 +17,157 @@
     <link rel="stylesheet" href="fonts/MisterPixel/stylesheet.css">
     <link rel="stylesheet" href="fonts/Grotesk/stylesheet.css">
     <!-- <link rel="stylesheet" href="fonts/Pilowlava/stylesheet.css">
-	<link rel="stylesheet" href="fonts/Minipax/stylesheet.css"> -->
+  <link rel="stylesheet" href="fonts/Minipax/stylesheet.css"> -->
     <!-- <link rel="stylesheet" href="stylesheet.css" -->
+
 </head>
 
 <body>
-    <section class="pagecolor nopagination">
-        <div class="block">
-            BazArt<br>&Craft
-        </div>
-        <div class="titre2">PROJET <br>DE<br> diplôme
-        </div>
-        <div class="titre3">Timothé <br>Ducros
 
-        </div>
-    </section>
+    <!-- Navbar (sit on top) -->
+    <header class="top">
+        <nav class="bar" id="myNavbar">
+            <a class="bar-item button hover-mint hide-medium hide-large right " href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+                <i class="fa fa-bars"></i>
+            </a>
+            <a href="page2.html" class="bar-item button hide-small"> Présentation</a>
+            <a href="page3.html" class="bar-item button hide-small"> Projet</a>
+            <a href="page4.html" class="bar-item button hide-small"> Formation</a>
 
-    <body>
+        </nav>
 
-    </body>
-    <!--Sommaire-->
-    <section class="page nopagination">
-        <div id="rabat" class="rabat">
-            <p class="sommaire">Edito</p>
-            <p class="sommairenbr"> <em>02</em></p>
-            <p class="sommaire ">Les bibliothèques,<br>entre lecture publique et évolution des pratiques : revisiter le tiers-lieu</p>
-            <p class="sommairenbr"> <em>04</em></p><br>
-            <p class="sommaire ">Entretiens</p>
-            <p class="sommairenbr"> <em>18</em></p><br>
-            <p class="sommaire ">Fiche de lecture
-                <p class="sommairenbr"> <em>30</em></p><br>
+        <!-- Navbar on small screens-->
+        <nav id="navDemo" class="bar-block white hide hide-large hide-medium">
+            <a href="page2.html" class="bar-item button" onclick="toggleFunction()"> Présentation</a>
+            <a href="page3.html" class="bar-item button" onclick="toggleFunction()"> Projet</a>
+            <a href="page4.html" class="bar-item button" onclick="toggleFunction()"> Formation</a>
+        </nav>
+    </header>
 
-        </div>
-    </section>
+    <!-- First Parallax Image with Logo Text -->
+    <div class="content container" id="home">
+        <h2 class"center">
+            ducros.timothe@gmail.com</h2>
+        <h0>Timothé<span class="hide-large"><br></span> Ducros</h0><br>
+        <h1 class"center">étudiant en Design <span class="hide-large"><br></span>et Cultures numériques</h1>
+
+    </div>
 
 
 
-    <!-- page de chapitre -->
-    <section class="page nopagination">
-        <div class="blockrempli">
-            BazArt<br>&Craft
-        </div>
-    </section>
 
-    <!-- Edito -->
+    <span class="Footer">
+        <h4>Développé par Timothé DUCROS.<br>Typographies : Grotesk dessiné par Frank Adebiaye,<br>
+            bluu dessiné par Jean-Bapste Morizot, distribuées par <a href="https://www.velvetyne.fr/" target="_blank">velvetyne</a>.</h4>
 
-    <section class="page nopagination">
-        <div class="titre">ÉDITO
-        </div>
-        <div class="chapeau">Ce travail réalisé dans le cadre du projet de diplôme d’un étudiant en Design et Cultures numériques de la Licence Arts Appliqués (dite "Licence Design") de l'Université de Nîmes répond à une volonté de rassembler au sein d’un objet éditorial une réflexion amorcé sur le lien entre culture maker et bibliothèque.
+    </span>
+
+    <!-- Container (About Section)
+    <div class="blockrempli" id="about">
+      <div class="content container padding-64" id="about">
+
+        <h3 class="center">Présentation</h3><br><br>
+        <p class="left">Ce site web fait parti d'un travail réalisé dans le cadre du projet de diplôme d’un étudiant en Design et Cultures numériques de la Licence Arts Appliqués (dite "Licence Design") de l'Université de Nîmes qui répond à une volonté de rassembler au sein d’un objet éditorial une réflexion amorcé sur le lien entre culture maker et bibliothèque.
             Il témoigne de questionnements existentiels, divers, sur la société de média et de consommation dans laquelle il évolue, de son intérêt pour diverses pratiques autour du savoir-faire de la main, de l’association du numérique à l’artisanat et de la notion de savoir et de connaissance.
             Plus simplement, il retranscrit une période du parcours de vie d’un étudiant, un peu paumé dans ce qu’on peut appeler le début du 21ème siècle, qui a amené avec lui une prise de conscience collective concernant nos modes de vie.
+        </p>
         </div>
-    </section>
-
-    <section class="page nopagination">
-    </section>
-
-    <body>
-
-        <!-- TITRE DE CHAPITRE -->
-
-        <section class="page nopagination ">
-            <div class="titre">Les bibliothèques,
-            </div>
-
-            <div class="titresuite">entre lecture publique et évolution des pratiques : revisiter le <br>tiers-lieu
-            </div>
-
-            <div class="intro">
-                Exploration des évolutions en bibliothèques à l’heure des fablabs et autres nouveaux concepts de tiers-lieux.
-            </div>
-
-            <!-- CHAPEAU -->
-            <div class="chapeau">Primordiales pour la diffusion de la culture et le lien social, les bibliothèques vivent à l’époque du tout numérique d’importants bouleversements. Continuer à faire vivre ces lieux de savoirs et de transmission en les adaptant aux nouveaux usages est un enjeu de taille qui appelle des réponses multiples. Et si l’introduction de laboratoires de création en bibliothèques peut poser question, il reste pertinent d’imaginer comment prolonger le rôle de transmission et de diffusion de ces lieux en les associant aux techniques du faire et de la création numérique.
-            </div>
-        </section>
-
-        <section class="plainimage">
-            <img src="images/Billy tramé.jpg" align="center">
-        </section>
-
-        <section class="pagecolor nopagination">
-        </section>
-
-        <section class="page introheader1 lineheight">
-            <p class="letterspacing03">« Les multiples facettes des bibliothèques remettent en question la pertinence de l’expression réductrice de «lecture publique» pour les designer ». à quelques mois des élections municipales 2020, Livres Hebdo publiait le 14 janvier l’article « «Lecture publique» ou «bibliothèques» ? ».<span class="supText">1</span><span class="note2">1. Voir : <a href="https://www.livreshebdo.fr/article/lecture-publique-ou-bibliotheques" target="_blank">www.livreshebdo.<br>fr/article/lecture-publique-ou-bibliotheques</a></span> Dans ce dernier, le média questionne la notion de « lecture publique » et son lien avec les bibliothèques qui tendent à diversifier leurs activités et à acquérir de nouvelles fonctions. Fablabs, makerspaces, hackspaces… De nouveaux espaces se greffent depuis quelques années au paysage des bibliothèques, donnant naissance au à une nouvelle forme de troisième voire de « quatrième lieu ».
-            </p>
-
-            <p class="letterspacing03">Ces dernières peuvent en effet être envisagé comme une suite logique de l’accès à la connaissance par médiateurs, notamment si l’on s’en réfère au Manifeste de l’UNESCO sur la bibliothèque publique, et ses missions : voir document page de droite.
-            </p>
-
-            <p class="letterspacing03"><span class="note2">2. Définition par le blog Carrefour numérique² : <a href="http://carrefour-numerique.cite-sciences.fr/fablab/wiki/doku.php?id=charte" target="_blank">http://carrefour-<br>numerique.cite-sciences.fr/fablab/<br>wiki/doku.php?id=charte</a></span><em>Concept apparu à la fin des années 90, pensé par Neil Gershenfeld physicien et informaticien, professeur au sein du MIT, le « fab lab » (contraction de l'anglais « fabrication laboratory », laboratoire de fabrication) est un tiers-lieu de type « makerspace » ouvert au public de façon collaborative dans lequel sont mis à disposition de nombreux outils assistés ou non par ordinateur (logiciels libres et open source, découpe laser, imprimante 3D …). Ils ont [une fonction sociale forte, favorisée par la charte qu’ils doivent respecter. Elle promeut, entre autres, l’éducation par l’apprentissage de pair à pair et la pratique."]<span class="supText">2.</span>
-                </em></p>
-            <p>La philosophie de ces tiers-lieux se rapproche des missions portées par les bibliothèques.</p>
-
-        </section>
-
-        <section class="plainimage">
-            <img src="images/Rapport Unesco-1.jpg" align="center">
-        </section>
-
-        <section class="plainimage">
-            <img src="images/Rapport Unesco-2.jpg" align="center">
-        </section>
-
-        <section class="plainimage">
-            <img src="images/Rapport Unesco-3.jpg" align="center">
-        </section>
-
-        <section class="pagecolor nopagination">
-        </section>
-
-        <section class="page introheader1 lineheight">
-            <h3>La bibliothèque augmentée</h3>
-
-            <p class="letterspacing-03"> Si en France le lien entre « lab » et bibliothèque n’est pas encore totalement inscrit dans les mœurs, il en est autrement à Montréal où les bibliothécaires y travaillent depuis quelques années. Il en ressort que ces deux formules sont très proches : elles facilitent la transmission de savoirs et de savoir-faire en proposant aux usagers des dispositifs d’informations lui permettant de résoudre un besoin. Collections bibliographiques en bibliothèque et documentation générée par les usagers et mise en libre accès en « lab », accès ouvert aux connaissances et à la technologie, réduction de fracture sociale et de la fracture numérique… Les synergies entre labs et bibliothèques sont a priori fortes.
-            </p>
-
-            <p class="letterspacing-03">A Montréal, les bibliothèques publiques ont déjà eu droit à deux générations de bibliothèques suivant le modèle tiers-lieu. Le premier s’inspirait des cafés pour mettre en place un dispositif de convivialité en rupture avec l’image de « mausolée » des bibliothèques et la seconde au modèle de bibliothèques communautaires dans lesquelles on trouve une multiplication et multiplicité d’espace sociaux : salles communautaires, de travails collaboratifs et laboratoire créatif : « fablab », « medialab », « makerspace ». <br> Cette troisième génération ne s’inscrit plus seulement dans une démarche de créativité, mais d’engagement<span class="note2">3. Voir : <a href="http://ville.montreal.qc.ca/portal/page?_pageid=4276,118637577&_dad=portal&_schema=PORTAL" target="_blank">ville.montreal.qc.ca<br>/portal/page?_pageid=4276<br>,118637577_dad=<br>portal_schema<br>=PORTAL</a><br><br>4. Voir : <a href="http:bibliomontreal.com/abonnez-vous/qui-sommes-nous/" target="_blank">bibliomontreal.com<br>/abonnez-vous/qui-sommes-nous/</a></span> à visé participatifet collaboratif dans la création de nouvelles bibliothèques et ce toujours dans la lignée du programme RAC<span class="supText">3</span> (Rénovation, agrandissement et constructions de bibliothèques) mis en place par la Ville de Montréal en 2008 et soutenu par le plan stratégique 2016-2019 des Bibliothèques de Montréal<span class="supText">4</span> par le biais de l’approche d’une vision de design dans l’innovation ( plan d’action « Montréal, ville intelligente et numérique » voulant faciliter la mise en place de laboratoires d’innovation publique en bibliothèque).
-
-            </p>
-        </section>
-
-
-        <section class="page introheader1 lineheight">
-
-            <p class="letterspacing-05">Le concept de troisième lieu fait dorénavant partie de la<span class="note2">5. Voir : <a href="https://laboratoirecreation.banq.qc.ca/index.php/Une_biblioth%C3%A8que_de_quatri%C3%A8me_lieu" target="_blank">https://laboratoire<br>creation.banq.qc.ca<br>/index.php/Une_bi<br>blioth%C3%A8que_<br>de_quatri%C3%A8<br>me_lieu</a></span> culture des bibliothèques modernes de Montréal et un article de la BAnQ <span class="supText">5</span> (Bibliothèque et Archives Nationales du Québec) aborde dorénavant la notion de quatrième lieu : « lieu d’apprentissage et d’échange de compétences, de participation et de création » où les usagers ont des profils variés. </p>
-
-            <h3>L’héritage tiers-lieu : typologie et bénéfices des laboratoires de création<span class="supText">6</span></h3>
-            <span class="note2">6. Ressources : <a href="https://laboratoirecreation.banq.qc.ca/index.php/Qu%E2%80%99est-ce_qu%E2%80%99un_laboratoire_de_cr%C3%A9ation%3F" target="_blank">https://laboratoire<br>creation.banq.qc.ca<br>/index.php/Qu%E2%<br>80%99est-ce_qu%E2<br>%80%99un_<br>laboratoire_de_cr%<br>C3%A9ation%3F</a></span>
-            <p class="letterspacing03">Ce mouvement donne lieu à des types de laboratoires de créations bien spécifiques tel que des :<br></p>
-
-            <p class="letterspacing-03"><i>Makerspace : « Terme générique pour définir l’ensemble des lieux ouverts à tous où des gens se rassemblent pour créer, apprendre, innover, bricoler, découvrir et explorer. Ainsi, il réfère plus à un état d’esprit qu’à un lieu réunissant des outils spécifiques. »
-                </i></p>
-
-            <p class="letterspacing-01"><i>Médialab : Moins axé sur la réalisation de produits tangibles, ce laboratoire d’expérimentation est orienté vers la production et la promotion de technologies médiatiques de représentation visuelle, sonore et vidéo.
-                </i></p>
-
-            <p class="letterspacing-03"><i>Fab Lab : ou laboratoire de fabrication numérique : donnant accès à une variété de machines et d’outils permettant la conception et la réalisation d’objets et de prototypes
-                </i></p>
-
-            <p class="letterspacing-05"><i>Recherche ouverte en innovation (living lab) : Terme désignant une méthodologie de recherche créatrice regroupant l’ensemble des acteurs concernés par un même projet – chercheurs, spécialistes, praticiens, entreprises, associations, individus, utilisateurs potentiels – dans l’objectif de tester dans le réel des services, des outils ou des usages nouveaux.</i></p>
-
-        </section>
-
-        <section class="page introheader1 lineheight">
-
-            <p><i>Ruche d’art : Tiers lieux de fabrication artistique, qui partagent leurs ressources telles que des matériaux d’art afin de les réutiliser de façon créative orienté dans le domaine des arts
-                </i></p>
-
-            <p class="letterspacing-10"><i>Rétrothèque : Lieu offrant l’équipement et l’accompagnement nécessaires pour pouvoir transférer du contenu d’un support obsolète vers un support contemporain ou inversement et est propice aux échanges sur l’évolution des technologies et les enjeux de la préservation de la mémoire collective.
-                </i></p>
-
-            <p class="letterspacing01">Autant de diversité dans les formats établis autour de besoins différents émanant des usagers, mais guidés par des principes communs tels que l’autonomie, l’approche communautaire et l’innovation. Ces principes articulent les laboratoires de créations autour d’éléments ayant pour but le développement personnel : mise en place d’un lieu où l’on apprend à apprendre, méthodologie de travail laissant la part à l’erreur comme un cheminement dans la production et non un échec et l’acquisition de connaissances sous-jacentes, en traversant un processus d’apprentissage sans en avoir réellement conscience.</p>
-
-            <p class="letterspacing-03">Ces « labs » se voient augmentés par la culture du « faire ensemble » (Do It Together) qui proposent aux participants d’interagir avec des passionnés, des spécialistes de divers domaines en mettant en commun leurs compétences et en apprenant de nouvelles. Le résultat étant souvent plus fructueux qu’un travail réalisé seul et sans vision extérieure.
-            </p>
-
-            <p>De plus, les laboratoires de création, la culture maker et le savoir « faire soi-même » (Do It Yourself) répondent de manière intéressante aux problèmes sociétaux et environnementaux qui se posent aujourd’hui et au sujet desquels il est important de sensibiliser le public : problèmes liés à l’économie du jetable, recyclage, réemploi, autonomie…
-            </p>
-
-
-        </section>
-
-
-        <section class="page introheader1 lineheight">
-
-
-
-            <h3>Médiation et engagement des publics : l’importance du test et du sur-mesure<span class="supText">7</span></h3>
-            <span class="note2">7. Ressources : <a href="https://laboratoirecreation.banq.qc.ca/index.php/Qu%E2%80%99est-ce_qu%E2%80%99un_laboratoire_de_cr%C3%A9ation%3F" target="_blank">https://laboratoire<br>creation.banq.qc.ca<br>/index.php/Qu%E2%<br>80%99est-ce_qu%E2<br>%80%99un_<br>laboratoire_de_cr%<br>C3%A9ation%3F</a></span>
-            <p>L’évolution de la bibliothèque vers la mise en place de laboratoires de création suit une vision collaborative de transmissions des savoirs qui se rapproche de la culture libre et du développement en open source. Ces derniers permettent la redistribution des contenus ainsi que leurs modifications et améliorations dans un but de diffusion au plus grand nombre.</p>
-
-            <p class="letterspacing01">Il est cependant primordial de centrer cette méthode de conception sur l’usager et ses besoins, ce qui passe notamment par un travail d’accompagnement et de médiation, qui reste le cœur de métier des bibliothécaires. Car si certains lieux peuvent<span class="note2">8. Mizuko Itō , né le 22 juillet 1968, est une anthropologue culturelle japonaise, ainsi qu'une professeure à l'Université de Californie à Irvine en sciences humaines et sociales. Elle se spécialise dans l'utilisation des médias numériques par les enfants, ainsi que leur impact sur les relations humaines, l'identité et les communautés. Voir : <a href="https://fr.wikipedia.org/wiki/Mizuko_It%C5%8D" target="_blank">wikipedia.org/<br>wiki/Mizuko_Itō</a><br><br>9. Voir : <a href="https://mitpress.mit.edu/contributors/mizuko-ito" target="_blank"><br>mitpress.<br>mit.edu/contributo<br>rs/mizuko-ito</a></span> être tentés par le développement de laboratoire de création dans leurs locaux, il ne faut pas oublier l’importance d’un acteur de médiation pouvant encadrer ce type d’ateliers dans lesquels peuvent être manipulés certains équipements et technologies de pointe et pour lesquelles le non-respect de notions d’apprentissage progressif, peut vite se révéler frustrant et contre-productif.
-            </p>
-
-            <p>Pour ce faire il faut être capable d’identifier les limites de son public afin de développer un processus d’apprentissage progressif et intuitif qui n’exclut pas la notion de droit à l’erreur, essentiel dans ce processus.</p>
-
-            <p class="letterspacing03">Dans cette idée, différentes études ont été menées comme celle de Mizuko Itō<span class="supText">8</span> qui dégage un concept : HOMAGO<span class="supText">9</span>, avec pour hypothèse qu’il existerait 3 modes d’engagements définis :</p>
-
-        </section>
-
-
-        <section class="page introheader1 lineheight">
-
-
-            <p class="letterspacing-05"><i>Hanging Out (socialisation) : Participation informelle et plutôt effacée, souvent ludique, axée sur la socialisation, permettant une appropriation graduelle des lieux et des activités.</i></p>
-
-            <p class="letterspacing-03"><i>Messing Around (bidouillage) : Mode de participation autodidacte, orienté vers l’essai-erreur, en solo ou en compagnie de pairs. Le personnel est présent pour accompagner, orienter, conseiller ou offrir un enseignement de base.</i></p>
-
-            <p class="letterspacing-03"><i>Geeking Out (engagement) : Engagement intense par rapport aux technologies présentes et approfondissement des connaissances dans un domaine précis. L’individu est souvent perçu comme un expert et fait office de mentor auprès des autres participants.
-                </i></p>
-
-            <p class="letterspacing-03">Ce qui suppose donc que les participants peuvent passer d’un mode d’engagement à un autre en fonction de leurs intérêts selon la situation. Permettant de repenser les méthodes d’éducation classiques et ses systèmes d’évaluation pour ceux d’un système modulaire en fonction de son engagement faisant écho au modèle pédagogique de l’apprentissage en réseau <i>(connected learning)</i>.</p>
-
-            <p class="letterspacing03">Outre la notion d’engagement dans la conception de ces lieux participatifs, il faut soulever l’importance de la notion de bêta perpétuel, concept impliquant une recherche et une remise en question constante du produit ou service développé qui n’est jamais achevé mais toujours en amélioration ou mutation.</p>
-
-            <p class="letterspacing-03"> C’est dans ces conditions que le laboratoire de création pourra répondre au mieux à la demande et aux désirs des usagers, en faisant se rencontrer leurs besoins car ils constituent le noyau du processus de conception et d’implantation qui leur permettra de développer leur autonomie, leur collaboration et leur partage des savoirs, ainsi que les expérimentations et les innovations.
-            </p>
-
-        </section>
-
-
-        <section class="page introheader1 lineheight">
-
-
-
-            <h3>Quelques exemples de labs en bibliothèque
-            </h3>
-            <span class="note2">10. Voir : <a href="https://abf.asso.fr/boutique/accueil/75-espaces-de-creation-numerique-en-bibliotheque.html" target="_blank">https://abf.asso.fr/<br>boutique/accueil/75-espaces-de-creation-numerique-en-bibliotheque.html</a></span>
-            <p class="letterspacing-01">L’Assocation des bibliothécaires de France a publié l’ouvrage Espaces de création numérique en bibliothèque, paru dans la collection « Médiathèmes »<span class="supText">10</span>. à destination dans un premier temps de tous les professionnels souhaitant installer des services de type « lab » dans leurs établissements, et rend aussi compte de ce qui a été fait dans le cadre du programme des bibliothèques numériques de référence<span class="note2">11. Voir : <a href="https://www.culture.gouv.fr/Sites-thematiques/Livre-et-Lecture/Bibliotheques/Numerique-et-bibliotheques/Les-Bibliotheques-numeriques-de-reference" target="_blank">https://www.culture.<br>gouv.fr/Sites-thematiques/Livre-et-Lecture/Biblio<br>theques/Numerique-et-bibliotheques<br>/Les-Bibliotheques-numeriques-de-reference</a></span><span class="supText">11</span>, créé en 2010 et historiquement réservé aux bibliothèques municipales classées (bibliothèque publique jouissant d’un statut particulier dans le droit français) avant de s’étendre en 2015 aux bibliothèques départementales. </p>
-
-            <p>Ce programme vise à réduire la fracture numérique sur le territoire français et l’illectronisme (illettrisme dans le domaine de l’information numérique) en aidant les grandes collectivités françaises à s’équiper de « programmes numériques de haut niveau » qui permette d’atteindre de nouveaux publics ainsi que de continuer à moderniser les bibliothèques dans leurs enjeux d’accompagnement culturel et social sur le territoire.
-            </p>
-
-            <p>Ce programme s’appuie principalement sur :
-            </p>
-
-            <p>L’attribution par le ministère d’un label reconnaissant à la collectivité la qualité du projet présenté (déclinaison du projet culturel, scientifique, éducatif et social de l’établissement).
-            </p>
-
-            <p class="letterspacing-01">Un dispositif d’accompagnement basé sur un financement important de l’État par mobilisation pluriannuelle de la DGD, et sur un travail de mise en réseau et d’accompagnement technique du projet par les services de l’État.</p>
-
-
-        </section>
-
-
-        <section class="page introheader1 lineheight">
-
-            <h3>Laboratoires de créations présents en bibliothèque</h3>
-            <p>A Rouen, deux « labs » ont été inaugurés dans le réseau de bibliothèque en avril 2019 avec l’aide du label BNR :</p>
-
-            <span class="note2">12. Voir : <a href="https://rnbi.rouen.fr/fr/service-en-ligne/le-musiclab" target="_blank">https://rnbi.rouen.fr/<br>fr/service-en-ligne/le-musiclab</a></span>
-            <p class="letterspacing01"><i>Musiclab<span class="supText">12</span>, studio de répétition et d’enregistrement équipé de logiciels de musique assistée par ordinateur (MAO) ainsi que d’instruments de musique disponibles au prêt. Il propose aussi la numérisation de vinyles et VHS et des ateliers d’initiation à la MAO (musique assistée par ordinateur).</i>
-            </p>
-
-            <p><span class="note2">13. Voir : <a href="https://rnbi.rouen.fr/fr/page-descriptive/le-chamalab" target="_blank">https://rnbi.rouen.fr/<br>fr/page-descriptive/<br>le-chamalab</a></span><i>Chamalab<span class="supText">13</span>, favorise le faire soi-même, les démarches collaboratives, et lutte contre «l’illectronisme» et propose aux individus des matériels de fabrication et logiciels de créations assistées par ordinateur.</i></p>
-
-            <span class="note2">14. Voir : <a href="https://www.ville-saintraphael.fr/cultivee/politique-culturelle" target="_blank">https://www.ville-saintraphael.fr/<br>cultivee/politique-culturelle</a></span>
-            <p>Plus ancien, à Saint-Raphaël le Cré@lab<span class="supText">14</span> inauguré en novembre 2016 :
-            </p>
-
-            <p><i>Propose un piano numérique, un logiciel de musique assistée par ordinateur, des consoles de jeux, un fablab et l’accès à 500 titres de presse en ligne ainsi qu’aux ressources numériques d’autoformation de Mediatem, le réseau qui regroupe les bibliothèques de Saint-Raphaël et celles du Pays de Fayence. Il a permis à la médiathèque de diversifier son public en partant à la conquête de non-fréquentant, mais aussi de développer des avec différents acteurs sociaux et culturels de la ville telle que le conservatoire de musique, le Bureau information jeunesse ou encore Pôle emploi.</i></p>
-
-            <p class="letterspacing-01">Dans la région d’Aix-Marseille Provence, la médiathèque Les Carmes de Pertuis a ouvert ses portes en janvier 2018 :</p>
-
-        </section>
-
-        <section class="page introheader1 lineheight">
-
-            <p><i>130m² sont proposés en vitrine du « fablab » ainsi qu’un espace de « coworking », aménagé dans une réserve-atelier de 100 m² composé de tables de travail, petits salons pour s’isoler, casiers pour déposer ses affaires et même une petite cuisine pour déjeuner sur place. Un pôle « médiamix » y est aussi proposé, transformant cette médiathèque en véritable espace de vie.
-                </i></p>
-
-            <span class="note2">15. Voir : <a href="http://wheeldo.eu/popfab/" target="_blank">http://wheeldo.eu/<br>popfab/</a></span>
-            <p class="letterspacing-03">Un projet du nom de Bibliolab porté par le fablab Wheeldo<span class="supText">15</span>, l’association Bibliocité ainsi que le réseau des bibliothèques de la ville de Paris a été imaginé en 2017 :</p>
-
-            <p class="letterspacing-01">
-                <i>« Fablab » mobile pour les bibliothèques. Le dispositif vise à rendre accessibles l’univers des fablab et la culture Maker au grand public. Au cœur des alvéoles, on retrouvera une imprimante 3D, une découpeuse vinyle, un Drawbot ainsi qu’une tablette qui seront accessibles gratuitement après réservation.</i></p>
-
-            <h3>Aspect juridique</h3>
-
-            <p>Au-delà des questionnements sur les besoins des utilisateurs dans l’élaboration de « labs », il existe une dimension juridique pour laquelle il est important de ne pas se mettre en marge des lois. </p>
-
-            <p class="letterspacing-03">En effet, dans cette remise en question des besoins et pratiques dans la lecture publique qui prône la socialisation par une démocratisation de pratiques transverses, la loi Française fait pourtant « obstacle » considérant les bibliothèques comme un espace de services de prêt réservé aux livres.
-            </p>
-
-            <p class="letterspacing-03">L’ABF (congrès de l’Association des Bibliothécaires de France)<span class="note2">16. Voir : <a href="https://www.nintendo.fr/Nintendo-Labo/Nintendo-Labo-1328637.html" target="_blank">www.nintendo.fr/<br>Nintendo-Labo/Nintendo-Labo-1328637.html</a></span> accueille des ateliers de présentation d’outils et équipements dernier cri, en 2018 on pouvait notamment retrouver le « Nintendo Labo »<span class="supText">16</span>, des kits d’accessoires en carton à monter soi-même et à adapter sur la console p-</p>
-
-        </section>
-
-        <section class="plainimage">
-            <img src="images/Popfab.jpg" align="center">
-        </section>
-
-        <section class="pages plainimage">
-            <img src="images/Nintendo.jpg" align="center">
-        </section>
-
-        <section class="page introheader1 lineheight">
-
-            <p class="letterspacing-05">-our prolonger l’expérience des joueurs, innovation<span class="note2">17. Voir : <a href="https://fr.wikipedia.org/wiki/Arduino" target="_blank">https://fr.wikipedia.<br>org/wiki/Arduino</a></span> s’inscrivant dans une initiation au DIY. Mais ce n’est pas tout, depuis quelques années certaines médiathèques abritent des casques de réalité virtuelle, des tablettes et des kits Arduino<span class="supText">17</span>.</p>
-
-            <span class="note2">18. « Il conviendra alors de prendre contact avec l’ayant droit pour négocier les droits de prêt »<br><br>Voir : <a href="https://abf.asso.fr/boutique/mediathemes/12-jeux-video-en-bibliotheque-version-pdf.html" target="_blank">https://abf.asso.fr/<br>boutique/mediathe<br>mes/12-jeux-video-en-bibliotheque-version-pdf.html</a></span>
-            <p class="letterspacing-07">Cependant les bibliothèques proposant ces services, évoluent dans un flou juridique, pour le prêt de jeux vidéo notamment, ce qui est rappelé dans l'ouvrage « Jeux vidéo en bibliothèque »<span class="supText">18</span>, publié par l’Agence Bibliothèques Information Services (ABIS) de l’ABF. Ceci est la même chose pour la consultation en leur sein, les bibliothèques sont censées demandées l’autorisation aux ayants droit et donc aux éditeurs, chose qui n’est pas toujours respectée, une zone de tolérance s’étant installée.
-            </p>
-
-            <p class="letterspacing-05">Les outils tech ne sont pas les seuls à être impactés, la musique, le livre audio et numérique ne rentrent eux aussi pas dans cette loi de prêt qui ne s’applique que pour le livre physique. <span class="note2">19. L’association 3 Hit combo a été initiée en 2005.<br>« Nous considérons surtout le jeu comme un moyen de favoriser l’émergence de nouvelles pratiques numériques créatives, culturelles et populaires.»<br><br> Voir : <a href="http://www.3hitcombo.fr/2018/05/28/soutenir-3-hit-combo-festival-stunfest/" target="_blank">www.3hitcombo.fr/<br>2018/05/28/<br>soutenir-3-hit-combo-festival-stunfest/</a></span>C’est une réelle problématique dans la mission de médiation de lieu comme les bibliothèques, 3 Hit Combo<span class="supText">19</span>, association organisatrice du Festival Stunfet, festival des cultures « vidéoludiques » à Rennes, s’est en effet vu pour son édition 2018 rejeter le droit de recevoir des dons par la Direction Régionale des Finances Publiques et affichait donc un déficit de près de 70 000€ avec pour motif « Le caractère culturel ne peut être reconnu à l’association 3 Hit combo puisque son activité n’est pas consacrée à la création, à la diffusion, ou à la protection d’œuvres de l’art et de l’esprit tel que défini par la doctrine administrative, qui exclut les activités ludiques et de loisir. ».
-            </p>
-
-            <p class="letterspacing-05">Ce flou juridique est donc un réel problème quant à la révision du statut de lecture publique et des nouvelles pratiques culturelles qu’elle engendre.
-            </p>
-        </section>
-
-        <section class="page introheader1 lineheight">
-            <h3>Les risques de se perdre dans la bibliothèque tiers lieu</h3>
-
-            <span class="note2">20. « Ray Oldenburg is an American urban sociologist who is known for writing about the importance of informal public gathering places for a functioning civil society, democracy, and civic engagement. He coined the term "third place" and is the author of the books Celebrating The Third Place and The Great Good Place ». Voir : <br><a href="https://en.wikipedia.org/wiki/Ray_Oldenburg" target="_blank">en.wikipedia.org/<br>wiki/Ray_Oldenburg</a><br><br>21. Raphaël Besson est expert en socio-économie urbaine et docteur en sciences du territoire (laboratoire PACTE, université de Grenoble). En 2013, il fonde "Villes Innovations", un bureau d’étude localisé à Madrid et Grenoble, spécialisé dans les stratégies d’innovation urbaine et les politiques de transition territoriale. Voir : <a href="https://www.pacte-grenoble.fr/membres/raphael-besson" target="_blank">https://www.pacte-grenoble.fr/membres<br>/raphael-besson</a></span>
-            <p class="letterspacing03">Si l’on souhaite résumer le concept de troisième-lieu, il faut revenir à la notion développée par le sociologue Ray Oldenburg<span class="supText">20</span> dans les années 1980, qui la définit comme consistant à privilégier la relation humaine.
-            </p>
-
-            <p class="letterspacing-03">La bibliothèque troisième lieu est donc une évolution naturelle, ne pouvant vivre sans publics lorsque l’on décide de la sortir de cette simple expression de lecture publique qui encre la bibliothèque dans la seule pratique qu’est la lecture.
-            </p>
-
-            <p class="letterspacing-05">Cette redynamisation permet aussi d’entretenir les échanges de liens sociaux dans des villages de province où les commerces et lieux d’échange tendent à disparaître.</p>
-
-            <p>Cependant, en France ce terme fait encore débat, Raphaël Besson<span class="supText">21</span>, expert en socio-économie urbaine et docteur en sciences du territoire, propose un débat autour de cette nouvelle pratique. Pour ce dernier, il ne faut pas oublier que « l’accès à la connaissance implique un retrait sur soi » l’homme doit pouvoir s’extraire de sa vie quotidienne pour pouvoir se recentrer, dans l’histoire, les lieux de savoirs ont toujours offert une retraite nécessaire à l’épanouissement de la recherche et même s’il est bon que ces lieux proposent une connexion à la vie de la cité, il y a « des biens communs à préserver » et ce notamment dans un monde qui tend à s’accélérer.
-            </p>
-        </section>
-
-        <!-- DEUXIEME TEXTE : CODE -->
-        <section class="page nopagination">
-            <div class="titre">Entretiens
-            </div>
-            <div class="chapeau">
-                Parce qu’elles constituent en grande partie le cheminement de ma réflexion, j’ai souhaité réunir au sein d’un chapitre les rencontres effectués durant ma troisième année de Licence Arts Appliqués, qu’elles soient intervenues avant ou pendant la décision du format que prendrait ce projet de diplôme.<br>
-                Elles se présentent sous forme d’entretient et sont retranscrits en suivant le fil de la discussion initiale. Ces entretiens pourront donc prendre une forme différente au fur et à mesure de la durée du projet.<br>
-                En effet, se présentant comme une version web to print, le projet pourra subir des actualisations.<br><br>
-                <div class="entretien">
-                    1er entretien,
-                </div><i> Alexandre Simonet dans le studio de création numérique, la partie émergente d’un projet plus souterrain : le Labo².</i>
-
-            </div>
-        </section>
-
-        <section class="plainimage">
-            <img src="images/Cif.jpg" align="center">
-        </section>
-
-        <section class="pagecolor nopagination">
-        </section>
-
-        <body>
-
-            <section class="page introheader2 lineheight">
-                <h3>Présentation du Labo²</h3>
-
-                <span class="note2">22. Créé formellement en 2012, le Labo² se situe dans la continuité des initiatives innovantes que Carré d’art bibliothèques Nîmes mène depuis 2003 dans le domaine des arts et des cultures numériques. Voir : <a href="http://www.nimes.fr/index.php?id=2930" target="_blank">www.nimes.fr/<br>index.php?id=2930</a></span>
-                <p>Laboratoire des usages numériques en bibliothèque<span class="supText">22</span> qui explore l’usage du numérique dans les domaines créatifs et celui des arts pour inventer des outils de médiation culturelle s’appuyant sur la compétence des artistes numérique pour inventer des outils de médiation culturel.</p>
-
-                <p>Et plus particulièrement sur 3 compétences :</p>
-
-                <i>
-                    <p>- L’appareil critique, visions du monde propre aux artistes et comment partager cette vision critique.</p>
-                    <p>- Utilisation de la programmation pour inclure le public dans son œuvre, ce qui fait la différence avec tous les autres arts qui confrontent le public à l’œuvre alors que les arts numériques pensent le dispositif pour les inclurent à l’œuvre.
-                    </p>
-                    <p>- Leurs capacités à se jouer des interfaces imposées par l’industrie en détournant et créant des projets utiles.
-                    </p>
-                </i>
-                <p class="letterspacing01">« Le Labo² a ainsi accueilli une centaine d’artistes depuis 2003. Chaque artiste a un rapport au code et aux interfaces singulières, une vision singulière, ce qui donne une palette énorme d’approches et d’usages permettant de résoudre pas mal de problème de la société de l’information, même s’ils ne le font pas pour ça.
-                </p>
-
-                <p>C’est pour cela que lorsque je (Alexandre Simonet) repère quelque chose d’intéressant, je réfléchis à un possible détournement du dispositif pour amener le public à prendre connaissance du travail de l’artiste et à comment résoudre des problèmes d’accès au savoir et à la connaissance qui est l’un des premiers points qui est propre aux bibliothèques. »</p>
-
-
-
-            </section>
-
-            <section class="page introheader2 lineheight">
-                <p>Le Labo² s’articule donc autour de 3 axes :</p>
-
-                <i>
-                    <p> La question des nouvelles formes de narration et d’écriture à l’heure de la miniaturisation du numérique, des réseaux sociaux, etc.</p>
-
-                    <p>Comment l’artiste intègre le numérique dans l’œuvre et comment partager ça avec le public par des résidences … création de ces temps d’interface avec le public en faisant et en fabriquant.</p>
-                    <p>Comment le jeu vidéo se nourrit des artistes numériques et comment au sein de cette industrie là il va apporter un autre éclairage.</p>
-                </i>
-                <span class="note2">23. « Pokémon Go est un jeu vidéo mobile de type freemium fondé sur la localisation massivement multijoueur utilisant la réalité augmentée. ». Voir : <a href="https://fr.wikipedia.org/wiki/Pok%C3%A9mon_Go" target="_blank">fr.wikipedia.org/<br>wiki/Pok%C3%A9<br>mon_Go</a><br><br>24.« L'uberisation est un phénomène récent dans le domaine de l'économie consistant en l'utilisation de services permettant aux professionnels et aux clients de se mettre en contact direct, de manière quasi instantanée, grâce à l'utilisation des nouvelles technologies.». Voir : <a href="https://fr.wikipedia.org/wiki/Uberisation" target="_blank">fr.wikipedia.org/<br>wiki/Uberisation</a></span>
-                <p>Chaque année Alexandre Simonet met en œuvre un festival s’étendant sur 1 mois, dont la thématique varie, mais reste toujours orienté autour de l’exploration de l’usage du numérique dans les domaines créatifs et celui des arts.</p>
-                <p class="letterspacing-01">L’édition de l’année dernière traitait du rapport à la donnée dans le jeu vidéo et de tout ce qui traverse la société : vidéo surveillance, donnée personnel …</p>
-                <p class="letterspacing-01">Cette année il traitera du travail entre le jeu vidéo et le réel : question liée entre hybridation des contenus, différentes réalités. Implémentation du jeu vidéo dans la vie réelle : pokémon go<span class="supText">23</span>. Des journalistes utilisent aussi le jeu vidéo afin d’enquêtes, de militantisme en montrant un fait social à travers le jeu vidéo : projet de simulateur de grève sur la Nintendo switch, simulateur de l’uberisation<span class="supText">24</span>, amazon.</p>
-
-                <p class="letterspacing-05">Ce qui amène à questionner la notion de lecture publique et son rapport aux arts numériques.</p>
-
-            </section>
-
-            <section class="plainimage">
-                <img src="images/Pkm.jpg" align="center">
-
-            </section>
-            <section class="plainimage">
-                <img src="images/Pkm2.jpg" align="center">
-            </section>
-
-            <section class="page introheader2 lineheight">
-                <h3>Questionnement sur la notion de lecture publique</h3>
-
-                <p><i>Pourriez-vous recontextualiser la lecture publique ?</i></p>
-
-                <p class="letterspacing01">« La lecture est un terme bien précis dans le milieu de la bibliothèque, il regroupe toutes les activités présentent au sein d’une bibliothèque pour faire la promotion du livre, de la lecture et de l’écrit sous toutes ses formes. Rapport aux collections présentent au sein de la bibliothèque ainsi que les prêts / retours, l’action culturelle, les actions hors les murs, l’accompagnement de la jeunesse, le numérique … c’est l’ensemble du projet.</p>
-
-                <p class="letterspacing03">Nous sommes en train de passer d’un modèle de diffusion du savoir à un modèle de construction du savoir, les gens sont amenés à construire leurs propres savoir par des compétences qui seront amenés par la bibliothèque soit par des chercheurs, par des médiateurs, par des artistes. On s’oriente vers des bibliothèques plus créatives. »</p>
-
-                <p><i>Des bibliothèques plus créatives, mais qui n'en oublie par pour autant la notion de médiation ?</i></p>
-                <p>« L’essentiel parti du savoir est en bibliothèque et on a encore du mal à le percevoir avec l’essor du net. La bibliothèque est non négligeable quand on veut localiser le savoir et il est important de multiplier les sources.</p>
-                <p class="letterspacing-01"><i>C'est donc un lieu propice à la création de connaissance.</i></p>
-
-
-                <p class="letterspacing-03"> Il y a une nuance entre savoir et connaissance, on peut s’avoir beaucoup de chose, mais la connaissance s’incarne par la pratique.
-                </p>
-                <p class="letterspacing01">Mon but est d’être le pont entre ce triangle, dans la médiation et la construction. C’est la personne qui est</p>
-            </section>
-
-            <section class="page introheader2 lineheight">
-
-                <p class="letterspacing-03">en face de toi qui va construire, il y a transfère de savoir, je peux donner des ressources, des infos, des outils et accompagner la personne pour l’aider à construire ce que la personne veut faire, d’autant plus qu’il faut évoluer avec des outils numériques.</p>
-                <p class="letterspacing-01">Pour accéder au savoir et à la connaissance il faut passer par des plateformes numériques avec abonnement soit c’est nous qui allons fabriquer ces plateformes en interne avec nos propres ressources. D'ailleurs certains des artistes avec lesquelles nous avons travaillés développent aussi des plateformes et ceci à commencer à s’imposer dans l’économie.</p>
-
-
-
-                <p class="letterspacing01">Jean-Luc Lamarque a été pionnier dans ce domaine avec l’invention du pianographique<span class="supText">25</span><span class="note2">25. Voir : <a href="http://turbulence.org/Works/curators/Paris/lamarquefrancais.htm" target="_blank">turbulence.org/<br>Works/curators/<br>Paris/lamarque<br>francais.htm</a><br><br>26. Voir <a href="https://fr.wikipedia.org/wiki/Adobe_Flash" target="_blank">fr.wikipedia.org/<br>wiki/Adobe_Flash</a></span> qui permettait a des gens de produire en temps réel en ligne à une époque où ce n’était pas encore possible. Portage en 1997 d’un logiciel CDROM développé en 1992. Développé sur une technologie flash<span class="supText">26</span>, qui aujourd’hui a été arrêté en début d’année 2020, ce qui amène le questionnement sur la problématique de conservation des arts numériques, comment on l’organise et comment on en fait la médiation, fait le pont avec des archives disponibles en bibliothèque. »</p>
-
-                <span class="note2">27. Voir : <br><a href="https://latelier-des-chercheurs.fr/outils/dodoc" target="_blank">latelier-des-chercheurs.fr/<br>outils/dodoc</a></span>
-                <p class="letterspacing01">Pour ce qu'y est des plus utilisés nous avons Do.doc – l’Atelier des chercheurs<span class="supText">27</span> :<br><br>
-                    « Conçu pour documenter et créer des récits à partir d'activités pratiques, do•doc (prononcer doudoc) est un outil composite, libre et modulaire, qui permet de capturer des médias (photos, vidéos, sons et stop-motion), de les éditer, de les mettre en page et de les publier. Son aspect composite permet de le reconfigurer de manière à ce qu'il soit le plus adapté possible à la situation dans laquelle il est déployé. »
-                </p>
-            </section>
-
-            <section class="page introheader2 lineheight">
-                <h3>La documentation en labo de création</h3>
-
-                <p class="letterspacing-03"><i>Comment les cultures multimédias et les arts numériques et comment l’arrivée du numérique se sont fait dans les bibliothèques ?</i></p>
-
-                <span class="note2">28. Voir :<br> <a href="https://www.vie-publique.fr/discours/127292-declaration-de-m-lionel-jospin-premier-ministre-sur-la-mise-en-oeuvre" target="_blank">www.vie-publique.<br>fr/discours/127292<br>-declaration-de-<br>m-lionel-jospin-premier-ministre-sur-la-mise-en-oeuvre</a><br><br>29. Voir : <a href="https://en.wikipedia.org/wiki/Information_superhighway" target="_blank">en.wikipedia.org/<br>wiki/Information_<br>superhighway</a><br><br>30. La transmédialité est un terme issu du concept anglais narration transmédia « transmedia storytelling ». La narration transmédia, telle que conçue par Henry Jenkins en 2003 est le processus de déploiement d'œuvres de fiction caractérisé par l'utilisation combinée de plusieurs médias pour développer une expérience unifiée et cohérente
-                    Voir : <a href="https://fr.wikipedia.org/wiki/Transm%C3%A9dialit%C3%A9" target="_blank">fr.wikipedia.org/<br>wiki/Transm%C3%<br>A9dialit%C3%A9</a>
-                </span>
-                <p>« Par le plan Jospin<span class="supText">28</span> en 1998 qui prend exemple sur Al Gore en 1992 et sa métaphore des « Autoroutes de l’information »<span class="supText">29</span> qui servait à préparer à l’essor des technologies.</p>
-
-                <p>La culture est pilotée par l’état puis décentraliser par les collectivités la région pour enfin être repris par la ville.</p>
-
-                <p>On est passé de l'informatisation dans la culture avec les ordinateurs et logiciels, à une numérisation des contenus : on a transposé la vie réelle vers le numérique et les réseaux puis après une réelle production numérique ayant impacté la vie de tous les jours. </p>
-
-                <p class="letterspacing01">Entre les deux il y a eu une phase, les cultures multimédias : la radio, la tv, l’informatique.</p>
-
-                <p>Mais il n’y avait pas encore ce coté transmédia<span class="supText">30</span> qui s’est imposé avec la numérisation et qui a donné ensuite l’arrivé des plateformes car pour organiser ce passage de l’un à l’autre il faut créer des plateformes de diffusion, qui s’appuie sur internet (la plateforme des plateformes).
-                </p>
-
-                <p class="letterspacing-03">Le Labo² a amené cette pratique des arts numériques qui est sa spécificité au sein de la bibliothèque du Carré d’art par le biais de Caroline Very-Mathieu, Responsable du Pôle de Développement Numérique des Bibliothèques de Nîmes.
-                </p>
-            </section>
-
-            <section class="page introheader2 lineheight">
-
-                <p>Comme on avait une mesure du ministère qui s’est développé pour des raisons organisationnelle en dehors de la bibliothèque, même si elle l’est physiquement elle n’y est pas totalement intégrée à cause de clichés rapport numérico-physique. </p>
-
-                <p class="letterspacing-03">En officialisant le Labo² dans l’établissement notamment par la requalification du Carré d’art, ça lui donne une légitimité, passant de sas d’expérimentation à service intégré. Dans les nouveaux objectifs fixés chaque année et dans les fiches de poste de recrutement des 3 bibliothèques de Nîmes doivent travailler en lien avec le Labo² et on voit que les arts numériques sont donc inscrits comme une orientation officielle. »</p>
-
-                <p><i>Il y a donc de réels enjeux à développer cet axe ?</i></p>
-
-                <p>« C’est un enjeu et ça a très peu été choisi par les bibliothèques parce que sous Sarkozy de 2007 à 2011, il y a eu une nouvelle labélisation : Bibliothèque Numérique de Référence et un arrêt brutal des subventions apporté aux cultures numériques et multimédia pour s’orienter davantage vers l’économie numérique, ce qui a entrainé un arrêt de développement des bibliothèques autour de ces axes. »</p>
-
-                <p><i>C’est ce qui peut justifier le retard pris face au Canada ?</i></p>
-
-                <p class="letterspacing03">« Oui car en 1998, 70% des espaces accompagnés et aidés par l’état était des lieux culturels : bibliothèques, musée, SMAC (scène de Musiques Actuelles), etc. Donc en supprimait les subventions nous avons pris 6/7 ans dans la figure tout ça pour réorienter les questions des usages numériques qui sont dans un contexte social, éducatif et culturel pour le donner à l’économie.</p>
-
-                <p>L’arrivé des fablab qui aurait dû se faire par ce canal-là, s’est fait via le redressement productif impulsé par Arnaud Montebourg.</p>
-
-
-            </section>
-
-            <section class="page introheader2 lineheight">
-
-
-                <p>Les fablabs ont donc émanés par deux canaux : une volonté sociale dans laquelle je m’inscris et par des appels à projets par le ministère de l’industrie.</p>
-
-                <p class="letterspacing-01">Sur le terrain il y a donc les fablabs a visée économiques et ceux comme celui<span class="note2">31. Pôle éducatif et culturel Jean d'Ormesson Voir : <a href="https://www.nimes.fr/index.php?id=3793" target="_blank">www.nimes.fr/<br>index.php?id=3793</a></span> du Mas de Teste<span class="supText">31</span> inscrit dans un projet éducatif global et culturel. Qui n’ont pas du tout les mêmes objectifs ni la même approche tout comme les aides : équipements et fonctionnements.</p>
-
-                <p class="letterspacing01">Cela chemine donc en fonction des hauts et des bas des orientations des politiques publiques, en France il faut vraiment être à l’écoute de ceci car c’est ce qui va décider de si ton lieu pourra vivre et se péréniser. »</p>
-
-                <p><i>Qu’en est-il du problème du droit de diffusion des ressources vidéoludiques ?</i></p>
-                <span class="note2">32. Une game jam est un hackathon avec pour thème principal les jeux vidéo, mais pouvant aussi porter sur les jeux au sens large. Les participants, groupés en équipes, doivent créer un jeu dans un temps limité2, généralement le temps d'un week-end, sur 24 à 72 heures. Voir : <a href="https://fr.wikipedia.org/wiki/Game_jam" target="_blank">fr.wikipedia.org/<br>wiki/Game_jam</a><br><br>33. Voir : <a href="https://www.enssib.fr/services-et-ressources/questions-reponses/bu-et-exception-pedagogique" target="_blank">www.enssib.fr/<br>services-et-ressources/questions-reponses/bu-et-exception-pedagogique</a></span>
-                <p>« Les éditeurs refusent que les jeux soient prêtés en bibliothèque comme les livres, nous avons donc pensé un service de jeu vidéo, où le publique peut venir jouer aux jeux achetés, que ce soit sur le plateau jeunesse ou adulte. </p>
-
-                <p>Dans ces espaces là on va essayer, comme pour les livres, de mettre en valeur les qualités des jeux. En essayant d’avoir une offre le plus large possible pour ensuite faire des focus sur des thèmes bien précis.</p>
-
-                <p class="letterspacing-05">Nous avons tout de même la possibilité de proposer des jeux indépendants, produit à compte d’auteur, passant par des Game jam<span class="supText">32</span> …</p>
-
-                <p class="letterspacing-01">L’exception pédagogique<span class="supText">33</span> nous permet tout de même de pouvoir utiliser des ressources en faisant attention de ne pas porter préjudice à l’auteur et à l’éditeur.</p>
-
-
-            </section>
-
-            <section class="page introheader2 lineheight">
-
-
-                <p class="letterspacing01">L’exception du « fair use<span class="supText">34</span><span class="note2">34. Voir : <a href="https://fr.wikipedia.org/wiki/Fair_use" target="_blank">fr.wikipedia.org/<br>wiki/Fair_use</a></span> » qui est un ensemble de règles de droit, qui encadre une application non préjudiciable, sous appréciation d’un juge qui constate ou non le préjudice d’une diffusion (atteinte à une morale ou perte d’argent).</p>
-
-                <span class="note2">35. Voir : <a href="https://fr.wikipedia.org/wiki/Creative_Commons" target="_blank">fr.wikipedia.org/<br>wiki/Creative_<br>Commons</a></span>
-                <p>Il y a aussi les « creative commons<span class="supText">35</span> » qui rentrent dans le droit d’auteur français et permettant de récupérer sur internet des contenus pour les diffuser ou prêter en fonction des droits d’usage par licence.</p>
-
-                <p>Cependant tout ce travail-là n’est pas fait car on dépend du marché, des acquisitions d’un point de vu culturel qui fait qu’on a du mal à passer du système marchand au système libre parce qu’on pense que si c’est gratuit c’est mauvais.</p>
-
-                <p class="letterspacing03">
-                    <p>Les makers n’auraient aucune existence s’ils étaient restés dans le système marchand, c’est grâce à leur approche de la culture du libre qu’ils ont pu voir le jour. »</p>
-
-                    <h3>Alexandre Simonet</h3>
-
-                    <span class="note2">36. Voir : <br><a href="https://www.le-florida.org/adem_florida/" target="_blank">www.le-florida.org/<br>adem_florida/</a></span>
-                    <p>« Avant d’être responsable du Labo² j’étais dans Adem Florida<span class="supText">36</span> le lieu ayant créé le concept de SMAC en travaillant sur le lien entre culture multimédia, art numérique et musique amplifié et j’ai donc développé pendant 6 ans des projets d’actions culturels autour des arts numériques et je me suis souvent rendu compte que les artistes qui faisaient de la musique était pluridisciplinaire et se rapprochait de l’écriture et de la littérature, ce qui m’a amené à m’intéresser à la bibliothèque avec le projet de travailler autour des arts numériques, des arts transdisciplinaires et des nouveaux modes de narrations. »</p>
-
-            </section>
-
-
-            <section class="page introheader2 lineheight">
-
-                <p><i>Vous avez eu des moments de galère pour monter votre projet ?</i></p>
-                <p>« Là c’est plutôt en phase ascendante alors que par le passé le domaine n’était pas reconnu, de 2007 à 2011 aucun financement, il a donc fallu chercher d’autres sources de financement mais qui étaient plutôt courtermiste.</p>
-
-                <p>... 25 ans pour imposer quelque chose.</p>
-
-                <p>L’aspect psychologique compte beaucoup, l’aspect collectif de comment intégrer ce projet dans une organisation professionnel, de comment ça se pilote et de comment ça se conduit compte beaucoup et ensuite la réception du public et des acteurs partenaires et tout ça dans une institution publique. »</p>
-
-                <p><i>Comment trouver un emploi quand on est pionnier dans un domaine ?</i></p>
-
-                <p>« J’ai façonné mon emploi, ce qui est assez courant lorsqu’on est en défrichage, lorsqu’on est pionnier. Mais il y a un moment donné où il faut quitter cette enveloppe et c’est là où ça devient compliqué car il faut faire des concessions. Mais il ne faut pas trop perdre non plus sur le plan du contenu, de l’organisation comme sur celui du bien être tout en ne perdant pas de vu l’objectif de départ qui est cette intégration qui se fait en fonction de la situation. À mon arrivée en 2003 je ne m’imaginais pas qu’elle forma pourrait prendre le projet.</p>
-
-                <p>Je savais que cela m’avait pris 6 ans dans un lieu hyper ouvert et dynamique donc moi je me suis dit que sans rien connaître de la collectivité il me faudrait 10 ans (cela en a pris 16 ans).
-
-                    <p>Mais ce que je sens c’est que tout ceci est en train de structurer.</p>
-
-
-            </section>
-
-
-            <section class="page introheader2 lineheight">
-
-                <p><i>Pour finir, comment envisagez-vous l’avenir ?</i></p>
-
-                <p>Je me rends compte qu’il y a des problèmes qui sont en train de se poser avec la numérisation excessive, on a besoin de zones blanches finalement, arrêtons de tout couvrir. Il est temps de se concentrer sur le besoin de déconnection. »</p>
-            </section>
-
-            <section class="page nopagination">
-            </section>
-
-            <section class="page nopagination">
-                <div class="titre">Fiche de lecture
+      </div>
+-->
+    <!-- Container (Portfolio Section)
+    <div class="blockrempli" id="portfolio">
+        <h3 class="center">Projet</h3>
+        <p class="center">Spécialistes du design culinaire, nous vous accompagnons sur vos projets
+            de communication d’entreprise et vous proposons des prestations gourmandes qui font rimer justesse et créativité.</p>-->
+
+    <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width)
+        <div class="row center">
+
+            <div class="col m3">
+                <img src="img/Capture.jpg" onclick="onClick(this)"=src="Ducros.pdf" class="hover-opacity">
+
+            <iframe src="Ducros.pdf" width="100%" height="500px">
+            </iframe>
+          </div>
+</div>
+-->
+
+    <!-- Modal for full size images on click
+    <div id="modal01" class="modal black" onclick="this.style.display='none'">
+        <span class="button large black display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
+        <div class="modal-content animate-zoom center transparent padding-64">
+            <img id="img01" class="image">
+            <p id="caption" class="opacity large"></p>
+        </div>
+    </div>
+-->
+
+    <!-- Container (Contact Section)
+    <div class="content container padding-64" id="contact">
+        <h3 class="center">Nous Trouver</h3>
+
+        <div class="row padding-32 section">
+            <div class="col m8 panel">
+                <div class="large margin-bottom center">
+                    <i class="fa fa-map-marker fa-fw hover-text-black xlarge margin-right"></i> 91 Rue du Colonel, 75012 Paris<br>
+                    <i class="fa fa-phone fa-fw hover-text-black xlarge margin-right"></i> Téléphone: 01 75 47 92 02<br>
+                    <i class="fa fa-envelope fa-fw hover-text-black xlarge margin-right"></i> Email: gusto@creaculinaire.com<br>
                 </div>
-                <div class="chapeau">
-                    Cette troisième partie est consacrée aux fiches de lectures des ouvrages m’ayant directement inspiré dans la production de ce travail. Tout comme pour le reste de l’ouvrage et à cause de l’épidémie de Covid-19, cette partie pourra être complétée à l’avenir.
-                    <br><br>
-                    <div class="letterspacing03 entretien">
-                        1ère lecture,
+                <form action="/action_page.php" target="_blank">
+                    <div class="row-padding" style="margin:0 -16px 8px -16px">
+                        <div class="half">
+                            <input class="input border round" type="text" placeholder="Nom" required name="Nom">
+                        </div>
+                        <div class="half">
+                            <input class="input border round" type="text" placeholder="Email" required name="Email">
+                        </div>
                     </div>
-                    <i> « DESign & CULtures NUmériques » Etudiants de l’option Design et cultures numériques et leurs professeurs Lucile Haute et Quentin Juhel, Décembre 2019.</i>
-                    <br><br>
-                    <div class="entretien">
-                        2ème lecture,
-                    </div><i>« WORKING PROMESSE, Les mutations du travail, shifting work paradigms » Olivier Peyricot Pôle recherche - Cité du design, Mars 2017.</i>
-                </div>
-            </section>
+                    <input class="input border round" type="text" placeholder="Message" required name="Message">
+                    <div class="center">
+                        <button class="button dark-grey section round" type="submit">
+                            ENVOYER
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+ -->
 
-            <section class="plainimage">
-                <img src="images/Fiche de lecture.jpg" align="center">
-            </section>
-            <section class="pagecolor nopagination">
-            </section>
+    <script>
+        // Modal Image Gallery
+        function onClick(element) {
+            document.getElementById("img01").src = element.src;
+            document.getElementById("modal01").style.display = "flex";
+            var captionText = document.getElementById("caption");
+            captionText.innerHTML = element.alt;
+        }
 
-            <section class="page introheader3 lineheight">
-                <h4>« DESIGN ET CULTURES NUMERIQUES » Etudiants de l’option Design et cultures numériques et leurs professeurs Lucile Haute <br>et Quentin Juhel - Décembre 2019</h4>
-                <p>Projet thématique de l’option Design et cultures numériques des étudiants de la licence Design de l’université de Nîmes, cet objet éditorial prend la forme d'une « anthologie circonstanciée » réunissant en son sein les textes de références sélectionnés dans le cadre pédagogique et en fonction de thématiques de travail des étudiants.</p>
+        // Change style of navbar on scroll
+        window.onscroll = function() {
+            myFunction()
+        };
 
-                <p>Ayant pour particularité sa chaîne de production reposant sur des outils libres, cet ouvrage don la direction artistique graphique et technique sont restés pilotés par les enseignants chercheurs Lucile Haute et Quentin Juhel, est un champ d’expérimentation formelle pour les étudiants qui en groupe de quatre se sont chargés de la mise en forme de ces six chapitres que sont : </p>
+        function myFunction() {
+            var navbar = document.getElementById("myNavbar");
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                navbar.className = "bar" + " card" + " animate-top" + " white";
+            } else {
+                navbar.className = navbar.className.replace(" card animate-top white", "");
+            }
+        }
 
-                <h3> Code</h3>
-                <p class="letterspacing-01"><i>« Le terme « code » est polysémique, son sens varie selon son contexte d'utilisation. De son sens légal jusqu'à̀ celui spécifique au domaine informatique, il est le sujet de valeur culturelle. Dans ce chapitre nous ferons connaissance du potentiel du « code » dans tous ses domaines d'application : le code qui structure la réalité́. Lawrence Lessig dans son article « Code is Law » nous propose de revenir sur l'évolution du « Cyberspace ».
-                        Par ailleurs, le collectif Constant donne une définition singulière au terme « Code » pour finir avec « Logiciel culturel » de Lev Manovich qui aborde les outils et services numériques. »</p>
-                <p class="élève">Chaumery Rémi, Ducros Timothé, Yamashita Atau, Yoo Joo-hyuk.</i>
-                </p>
-            </section>
+        // Used to toggle the menu on small screens when clicking on the menu button
+        function toggleFunction() {
+            var x = document.getElementById("navDemo");
+            if (x.className.indexOf("show") == -1) {
+                x.className += " show";
+            } else {
+                x.className = x.className.replace(" show", "");
+            }
+        }
 
-            <section class="page introheader3 lineheight">
-                <h3>Hacktivisme / médias tactiques</h3>
-                <i>
-                    <p class="letterspacing-01">« L'hacktivisme est une forme de militantisme qui utilise des compétences du piratage informatique pour favoriser des changements sociétaux et politiques. Dans ce chapitre, sont réunis des textes qui évoquent le libre accès aux informations et à la culture les rendant publiques par l'hacktivisme. Les textes qui vont suivre témoignent, pour leurs auteurs, de l'importance de ce libre accès. Natalie Magnan analyse, dans son article <br>« Art, Hack, Hacktivisme, culture jamming, médias tactiques », quelques faits intéressants d'actions hacktivistes. Ces réflexions introduisent les enjeux du « Manifeste de la Guérilla pour le Libre Accès ». »</p>
-                    <p class="élève">Astier Amelie, Cervantes Mathilde, Epifanio Mathis, Hernandez Blandine.
-                    </p>
-                </i>
-
-                <h3>Technologie et société́</h3>
-                <i>
-                    <p>« L’émergence des outils libres dans le domaine du graphisme accompagne à un phénomène de société́ : le téléchargement illégal, dont Aaron Schwartz plaide la cause. Cette pratique s’inscrit dans une ère du numérique en expansion, induisant de nouveaux comportements et de nouvelles relations. Dans son introduction à l'ouvrage Seuls ensemble, Sherry TURKLE établit une chronologie de ces rapports, interrogeant les mutations sociétales induites par le numérique. »</p>
-                    <p class="élève">Baldocchi Guilhaume, Baroni Pauline, Bourara Ihab, Calvosa Emma.
-                    </p>
-                </i>
-
-                <h3>Cyberféminismes</h3>
-                <p><i> « Dans son manifeste (1985), Donna Haraway trace le chemin pour les expériences de cyberféminisme qui suivent. Elle pense que les femmes devraient s'emparer</i></p>
-
-            </section>
-
-            <section class="page introheader3 lineheight">
-                <i>
-                    <p class="letterspacing-03"> des technosciences et que la société́ ne devrait plus opposer ces deux groupes. Le cyberféminisme décrit les revendications, le militantisme et les actions réalisées par divers groupes féministes en ligne, sur les réseaux sociaux..., en utilisant les nouvelles technologies pour souligner leur propos. De la notion imaginaire de « cyborg » transformeur de sociétés à travers le « Cyborg Manifesto » de Donna Haraway ; le manifeste des VNS Matrix porteuses de la voix « clitoridienne » ou des gynepunks, féministes radicales qui se réapproprient les outils technoscientifiques en faveur des femmes ; l’importance de leurs actions est pris en compte. Une nouvelle matrice s’est construite et continue de se construire, celle de la lutte du réel par la force et la vitalisté du virtuel. »</p>
-                    <p class="élève">Guillou Marjorie, Karam Amira, Metatla Chaïma, Porcher Yola.
-                    </p>
-                </i>
-
-                <h3>Visage-écran
-                </h3>
-                <i>
-                    <p class="letterspacing-03">« Dans Is the Face a Screen?, Manuel Arturo Abreu s'interroge sur le pouvoir qu'exerce le visage sur les autres et sur soi-même.
-                        Le visage parle, exerce son pouvoir, qui est tout relatif. Il s'interroge aussi sur des questions de rencontre avec l'autre et soi-même, par le biais du "visage écran" dans la société́ occidentale.
-                        Dans le visage de l'autre, Valérie Jeanne-Perrier, met en avant la perte d'identité́ causée par l'utilisation des filtres. Le visage est rendu banal et interchangeable. Ayant pour première fonction de provoquer la réaction, utilisé comme premier échange, première communication, c'est finalement un échange léger, banal, vide de sens et de contenu qui s'effectue. L'échange est plat, un dialogue sans paroles, qui ne raconte rien ou peu de choses. Depuis que le téléphone fait partie de notre vie nous nous sommes habitués à lui et nous lui avons fait totalement confiance.
-                        Notre apparence en a été́ touchée et notre visage expressif de sentiment est devenu inexpressif à cause de la transformation appliquée pour plaire à̀ la société́. »</p>
-
-                </i>
-
-            </section>
-
-            <section class="page introheader3 lineheight">
-<p class="élève">Ubaldi Maëlle, Mondet Enzo, Delon Mathilde, Rothureau Emma.</p>
-
-                <h3>Outils libres du design graphique</h3>
-                <i>
-                    <p>« Les textes réunis dans ce chapitre traitent de l’influence des logiciels libres sur les formes graphiques et de la liberté́ de diffusion. Le design éditorial est également abordé.
-                        Dans « Open Source Publishing, Relearn », initialement publié dans la revue ∆⅄⎈, Femke Snelting compose un compte-rendu de discussions ayant pour thème les outils libres. Les productions abordées dans ce texte permettent de découvrir les principes des plateformes libres et de comprendre leur importance dans la création.
-                        Dans « Le design éditorial » publié dans Graphisme en France, Francesco Franchi révèle avec précision les fonctions du design éditorial. Il propose de découvrir les enjeux qui en découlent et le rôle clé́ des acteurs. Il expose les qualités et l’importance du directeur artistique dans la mise en page graphique de l’information. Il resitue le design éditorial dans sa mission première : informer, transmettre et séduire les lecteurs.
-                        « Open Source Publishing, Relearn » et « Le design éditorial » sont liés par un objectif commun : transmettre et présenter l’information de manière structurée. Ils articulent/divulguent les méthodes conceptuelles et la stratégie unique de la mise en page. »
-                    </p>
-
-                    <p class="élève">Boudier Dora, Gisquet Alexandre, Kanon Naïké, Pointeaux Lola.</p>
-                </i>
-
-                <p>En suivant ce plan, l’anthologie nous permet ainsi de nous saisir des enjeux sociétaux soulevés par les nouvelles technologies et l’ère du numérique. </p>
-
-                <p>L'ouvrage constitue donc un premier point d'entrée pour ceux souhaitant d'écouvrir les cultures numériques.</p>
-
-            </section>
-
-            <section class="plainimage">
-                <img src="images/DCN.jpg" align="center">
-            </section>
-            <section class="plainimage">
-                <img src="images/WIP.jpg" align="center">
-            </section>
-
-            <section class="page introheader3 lineheight">
-                <h4>« WORKING PROMESSE, Les mutations du travail, shifting work paradigms » <br>Olivier Peyricot, Pôle recherche <br>Cité du design -
-                    Mars 2017
-                </h4>
-                <p class="letterspacing01">L’ouvrage s’inscrit comme le catalogue de l’édition 2017 de la Biennale Internationale de Design de Saint-Étienne. Il dresse un panorama des mutations et évolutions du « travail » et de la pratique du design dans ce début de 21ème siècle qui marque un nouveau tournant dans un monde d’industrialisation régit dorénavant par le tout-digital.</p>
-
-                <p>Dans le cadre de mon projet nous nous concentrons sur la partie « L’Expérience tiers-lieux : Fork the world » du 2nd chapitre ; UTOPIES PARTAGEES.</p>
-
-                <p>Ce corpus nous permet de s’ouvrir à une alternative dit « troisième voie », en effet, le « fork » (fourche, bifurcation) est ici évoquée au sens d’alternative aux voies déjà tracées, promouvant ainsi la pluralité des usagers et des compétences au sein de lieux menant une mutation industrielle et où chacun dirige.</p>
-
-                <p>Le corpus est introduit par un texte d’Olivier Peyricot, directeur scientifique de la Biennale Internationale de Design 2017 et directeur du pôle Recherche de la Cité du Design, décembre 2016.</p>
-
-                <p>Un parti pris graphique fort ne permet pas d’identifier un plan précis de l’article, mais celui-ci se constitue en un collage qui regroupe en son sein une iconographie constituée de capture d’écran, photographies, et montage photo, ainsi que de témoignages, mots mêlés, diverses citations, idées ou bien définitions et de jeux de mots.</p>
-
-                <p>Cependant une formule nous permet de saisir la recette (de cuisine) d’une expérience Tiers-Lieux :</p>
-            </section>
-
-
-            <section class="page introheader3 lineheight">
-                <p> Mutation du travail et des communautés + Patrimoine commun et libre appropriation + Emancipation en actes Pour le meilleur et pour le pire + Résilience et Modularité, qui sont donc les propriétés Tiers-Lieux soulevés par les co-commisaires réunis en la World Trusting Foundation.</p>
-            </section>
-
-<section class="page nopagination">
-</section>
-
-            <section class="page nopagination">
-                <div class="ours">
-                    <h5>BazArt<br>&Craft</h5>
-                    <p class="ourstext">Première version de l'ouvrage réalisée entre le 11 mars et le 12 mai 2020 en CSS print
-                        par Timothé Ducros étudiant de troisième année de la Licence Design de l'Université de Nîmes, dans le contexte pédagogique du projet de diplôme de l'option Design et cultures numériques. Imprimé et relié chez vous en XX exemplaires non commerciaux.</p>
-
-                    <h3>Composition</h3>
-                    <p class="credits ourstext">Timothé DUCROS</p>
-                    <br>
-
-                    <h3>Coordination</h3>
-                    <p class="ourstext">Timothé DUCROS</p>
-
-                    <h3>Impression</h3>
-                    <p class="ourstext">À XX, XX exemplaires</p>
-
-                        <h3>Typographies</h3>
-                        <p class="ourstext"><i>Grotesk</i> dessiné par Frank Adebiaye distribuée par Velvetyne sous licence FontForge 2.0 // <i>bluu</i> dessiné par Jean-Baptiste Morizot, distribuée par Velvetyne sous licence SIL Open Font License, Version 1.1 // <i>Minipax</i> dessiné par Raphaël Ronot, distribuée par Velvetyne sous licence SIL Open Font, version I.I</p>
-                        <br>
-
-                          </div>
-                          </section>
-
-                            <section class="page nopagination">
-                                <div class="ours">
-
-                                  <h3>Iconographies</h3>
-                                  <p class="ourstext letterspacing-03"><i>p. 7 :</i> Notice de montage bibliothèque Billy. Disponible sur :  <a href="https://www.ikeaddict.com/ikeapedia/fr/Product/00263850/fr-fr/billy-bibliotheque-blanc/Entry/" target="_blank">www.ikeaddict.com/ikeapedia/fr/Product/00263850/fr-fr/billy-bibliotheque-blanc/Entry/</a> // <i>p. 8 à 10 : </i>Manifeste de l'UNESCO sur la bibliothèque publique, 1994. Disponible sur :  <a href="https://unesdoc.unesco.org/ark:/48223/pf0000112122_fre" target="_blank">unesdoc.unesco.org/ark:/48223/pf0000112122_fre // <i>p. 16 : </i>PopFab. Disponible sur :  <a href="http://wheeldo.eu/popfab/" target="_blank">wheeldo.eu/popfab/</a> // <i>p. 17 : </i>Nintendo Labo - Multi Kit. Disponible sur :  <a href="https://www.amazon.fr/Nintendo-221061-Labo-Multi-Kit/dp/B0792T" target="_blank">www.amazon.fr/Nintendo-221061-Labo-Multi-Kit/dp/B0792T</a> // <i>p. 19 :</i> Cif nettoyant crème - fraîcheur citron jaune 750ml. Disponible sur :
-                                    <a href="https://www.nouvelle-epicerie.fr/en/nettoyants/2096-cif-nettoyant-creme-fraicheur-citron-jaune-750ml.html" target="_blank">www.nouvelle-epicerie.fr/en/nettoyants/2096-cif-nettoyant-creme-fraicheur-citron-jaune-750ml.html</a> // p. 21 à 22 : Capture d'écran Pokémon Go. Disponible sur :  <a href="https://www.cnetfrance.fr/telecharger/pokemon-go-40337746s.htm" target="_blank">www.cnetfrance.fr/telecharger/pokemon-go-40337746s.htm</a> // p. 29 : Exemple de fiche de lecture. Disponible sur :  <a href="http://ecolechocosuisse.canalblog.com/archives/2016/03/08/33483243.html" target="_blank">ecolechocosuisse.canalblog.com/archives/2016/03/08/33483243.html</a> // <i>p. 35 </i>Première de couverture « DESign & CULtures NUmériques » - Etudiants de l’option Design et cultures
-                                  numériques et leurs professeurs Lucile Haute et Quentin Juhel - Décembre 2019 // <i>p. 36 :</i> Première de couverture « WORKING PROMESSE, Les mutations du travail, shifting work paradigms » Olivier Peyricot, Pôle recherche Cité du design - Mars 2017. Disponible sur <a href="https://www.librairie-descours.com/catalogues-d-exposition/catalogue-d-exposition/35370/working-promesse-les-mutations-du-travail-shifting-work-paradigms#.XrUm9Wgzbb0" target="_blank">www.librairie-descours.com/catalogues-d-exposition/catalogue-d-exposition/35370/working-promesse-les-mutations-du-travail-shifting-work-paradigms#.XrUm9Wgzbb0</a> </span>
-                                  </span><br>
-
-                                    <h3>Remerciements</h3>
-                                    <p class="ourstext">Merci à toutes les personnes m'ayant accompagnées durant cette troisième et dernière année de licence et ayant participées de près ou de loin à l'élaboration de cet ouvrage : Lucile Haute, Quentin Juhel, Alexandre Pavard, Nicolas Rodelet, Roxane Bittard, Alexandre Simonet, Léa Verbiese, Mathilde Delon, Marjorie Guillou, Jade Roux, les gars et la classe de l'option Design et cultures numériques.</p>
-<br><br>
-                                    <div class="droite">
-                                        <p class="ourstext">Cet exemplaire ne peut être vendu.</p>
-                                      </div>
-
-                </div>
-            </section>
-
-
-                                                  <section class="page nopagination">
-                                                  </section>
-
-                                                  <section class="pagecolor nopagination">
-                                                  </section>
-
-        </body>
+    </script>
+</body>
 
 </html>
