@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Grotesk';
+    src: url('Grotesk.woff2') format('woff2'),
+        url('Grotesk.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+

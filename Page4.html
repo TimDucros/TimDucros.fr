@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BazArtCraft</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="fonts/Bluu/stylesheet.css">
+    <link rel="stylesheet" href="fonts/Minipax/stylesheet.css">
+    <link rel="stylesheet" href="fonts/Millimetre/stylesheet.css">
+    <link rel="stylesheet" href="fonts/VG5000/font.css">
+    <link rel="stylesheet" href="fonts/MisterPixel/stylesheet.css">
+    <link rel="stylesheet" href="fonts/Grotesk/stylesheet.css">
+    <!-- <link rel="stylesheet" href="fonts/Pilowlava/stylesheet.css">
+  <link rel="stylesheet" href="fonts/Minipax/stylesheet.css"> -->
+    <!-- <link rel="stylesheet" href="stylesheet.css" -->
+
+</head>
+
+<body>
+
+  <header class="top">
+      <nav class="bar" id="myNavbar">
+          <a class="bar-item button hover-mint hide-medium hide-large right " href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+              <i class="fa fa-bars"></i>
+          </a>
+            <a href="page1.html" class="bar-item button">Timothé Ducros</a>
+            <a href="page2.html" class="bar-item button hide-small"> Présentation</a>
+            <a href="page3.html" class="bar-item button hide-small"> Projet</a>
+            <a href="page4.html" class="bar-item button hide-small"> Formation</a>
+          </a>
+      </nav>
+
+      <!-- Navbar on small screens-->
+      <nav id="navDemo" class="bar-block white hide hide-large hide-medium">
+        <a href="page2.html" class="bar-item button" onclick="toggleFunction()"> Présentation</a>
+        <a href="page3.html" class="bar-item button" onclick="toggleFunction()"> Projet</a>
+        <a href="page4.html" class="bar-item button" onclick="toggleFunction()"> Formation</a>
+      </nav>
+  </header>
+
+
+    <!-- Container (Contact Section) -->
+    <div class="blockrempli content container" id="Contact">
+      <h3 class="center">Formation</h3>
+        <p class="center">2017 / 2020
+Licence Art -Design,
+<br>UNIMES, Campus Universiaire
+- Nîmes.</p>
+<p class="center">2015 / 2016
+Certificat d’Aptitude Professionnel
+Connexe Cuisine,<br>
+Centre de Formation d’Apprentis
+François Rabelais - Dardilly.</p>
+
+<p  class="center">2012 - 2015
+Baccalauréat Technologique
+Hôtellerie Restauration,<br>
+Lycée Hôtelier François Rabelais
+- Dardilly.
+        </p>
+        </div>
+      </div>
+
+      <script>
+          // Modal Image Gallery
+          function onClick(element) {
+              document.getElementById("img01").src = element.src;
+              document.getElementById("modal01").style.display = "flex";
+              var captionText = document.getElementById("caption");
+              captionText.innerHTML = element.alt;
+          }
+
+          // Change style of navbar on scroll
+          window.onscroll = function() {
+              myFunction()
+          };
+
+          function myFunction() {
+              var navbar = document.getElementById("myNavbar");
+              if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                  navbar.className = "bar" + " card" + " animate-top" + " white";
+              } else {
+                  navbar.className = navbar.className.replace(" card animate-top white", "");
+              }
+          }
+
+          // Used to toggle the menu on small screens when clicking on the menu button
+          function toggleFunction() {
+              var x = document.getElementById("navDemo");
+              if (x.className.indexOf("show") == -1) {
+                  x.className += " show";
+              } else {
+                  x.className = x.className.replace(" show", "");
+              }
+          }
+
+      </script>
+</body>
+
+</html>

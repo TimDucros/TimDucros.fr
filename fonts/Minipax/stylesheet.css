@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Minipax';
+    src: url('Minipax-Bold.eot');
+    src: url('Minipax-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Minipax-Bold.woff2') format('woff2'),
+        url('Minipax-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Minipax';
+    src: url('Minipax-Medium.eot');
+    src: url('Minipax-Medium.eot?#iefix') format('embedded-opentype'),
+        url('Minipax-Medium.woff2') format('woff2'),
+        url('Minipax-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Minipax';
+    src: url('Minipax-SemiBold.eot');
+    src: url('Minipax-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('Minipax-SemiBold.woff2') format('woff2'),
+        url('Minipax-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Minipax';
+    src: url('Minipax-Regular.eot');
+    src: url('Minipax-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Minipax-Regular.woff2') format('woff2'),
+        url('Minipax-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
