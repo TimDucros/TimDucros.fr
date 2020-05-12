@@ -142,17 +142,20 @@ h4 {
 }
 
 .button:hover {
-    color: #f4fefe;
+    color: #002155;
+}
+.buttontwo:hover {
+    color: #002155;
 }
 
 .black {
     color: #f4fefe;
-    background-color: #000
+    background-color: #000;
 }
 
 .mint {
     color: #f4fefe;
-    background-color: #fc5d5d
+    background-color: #fc5d5d;
 }
 
 .white {
@@ -161,6 +164,19 @@ h4 {
 
 }
 
+
+a {color:#002155;
+text-decoration:underline;
+}
+
+a:hover {
+color:#f4fefe;
+text-decoration:none;
+}
+
+object:hover {
+    opacity: 0.80;
+}
 /*.card {
     box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12)
 }*/
@@ -221,8 +237,8 @@ h4 {
 
 .display-container {
     display: flex;
-    justify-content: left;
-    align-items: center
+    justify-content: center;
+    align-items: center;
 }
 
 .xlarge {
@@ -265,6 +281,12 @@ h4 {
     display: flex;
     /*flex-wrap: nowrap;*/
     /*justify-content: space-around;*/
+}
+
+.pagecentre {
+  margin-left: auto;
+    margin-right: auto;
+    margin-top: 200%;
 }
 
 .col.m6,
@@ -327,8 +349,7 @@ img {
 /* Portfolio */
 
 
-.text-white,
-.hover-text-white:hover {
+.text-white:hover {
 
     color: #f4fefe;
 
@@ -390,6 +411,10 @@ img {
 }
 
 .container button {
+    align-self: center
+}
+
+.container buttontwo {
     align-self: center
 }
 
